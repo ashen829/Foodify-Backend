@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Data //Getter Setter Methods
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
@@ -23,7 +23,7 @@ public class User {
     private String fullName;
     private String email;
     private String password;
-    private USER_ROLE role;
+    private USER_ROLE role=USER_ROLE.ROLE_CUSTOMER ;
 
     @JsonIgnore //When fetching user don't need this list
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")
@@ -36,5 +36,29 @@ public class User {
     private List<Address>addresses = new ArrayList<>();
 
 
+
+    public USER_ROLE getRole() {
+        return role;
+    }
+
+    public void setRole(USER_ROLE role) {
+        this.role = role;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
 }
