@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eb7b6da9-8326-46ca-91ce-68a95e203b84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/config/JwtConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/config/JwtConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/service/CustomerUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ashen/Foodify/service/CustomerUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "c7cbe5f002dfb51fb98659b95a23173c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717571691198</updated>
-      <workItem from="1717571692234" duration="19636000" />
+      <workItem from="1717571692234" duration="20334000" />
+      <workItem from="1718664492594" duration="37000" />
+      <workItem from="1719824791695" duration="12961000" />
     </task>
     <servers />
   </component>
